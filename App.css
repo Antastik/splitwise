@@ -1,0 +1,70 @@
+/* Use a dark background and neon colors */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d0d;
+  font-family: 'Roboto Mono', monospace;
+  color: #00ffff;
+}
+
+/* Container styling */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header with a neon gradient */
+.App-header {
+  background: linear-gradient(45deg, #00ffff, #ff00ff);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.Expense-form input, .Expense-form button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Input fields with subtle glow */
+.Expense-form input {
+  background-color: #1a1a1a;
+  color: #00ffff;
+}
+
+/* Button with neon border and background */
+.Expense-form button {
+  background-color: #00ffff;
+  color: #0d0d0d;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Expense-form button:hover {
+  background-color: #ff00ff;
+}
+
+/* Expense card styling */
+.Expenses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Expense {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid #00ffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px #00ffff;
+}
